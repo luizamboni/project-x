@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "visa-mcc-processor"
+version = "0.1.0"
+description = "Processador de regras Visa por MCC para estabelecimentos comerciais"
+authors = ["Seu Nome <seuemail@example.com>"]
+license = "MIT"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
