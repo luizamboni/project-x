@@ -1,6 +1,7 @@
 import argparse
 import logging
-from visa_mcc_module import EDIParser, aplicar_regra_por_descricao
+from checktax.rules import aplicar_regra_por_descricao
+from checktax.edi import EDIParser
 from collections import defaultdict
 
 logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")

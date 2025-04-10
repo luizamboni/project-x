@@ -3,7 +3,6 @@ from .mcc_5814 import processar_mcc_5814
 from .mcc_4121 import processar_mcc_4121
 from .mcc_5411 import processar_mcc_5411
 from .mcc_5813 import processar_mcc_5813
-from .edi_parser import EDIParser
 
 descricao_to_func = {
     "5812": processar_mcc_5812,

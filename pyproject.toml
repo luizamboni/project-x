@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "visa-mcc-processor"
+name = "checktax"
 version = "0.1.0"
 description = "Processador de regras Visa por MCC para estabelecimentos comerciais"
 authors = ["Seu Nome <seuemail@example.com>"]
